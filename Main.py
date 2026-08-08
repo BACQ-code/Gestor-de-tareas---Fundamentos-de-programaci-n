@@ -1,4 +1,4 @@
-def mostrar_progreso():
+
     total = len(tareas)
     if total == 0:
         print("Sin tareas")
