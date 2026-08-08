@@ -7,6 +7,12 @@ def mostrar_menu():
   print("3. Mostrar progreso")
   print("4. Salir")
 
+def listar_tareas():
+    for tarea in tareas:
+        print(
+            tarea["nombre"],
+            tarea["completada"]
+        )
 def agregar_tarea():
     nombre = input("Tarea: ")
     tarea = {
