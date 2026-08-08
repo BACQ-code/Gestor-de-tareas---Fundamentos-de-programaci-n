@@ -13,3 +13,10 @@ def listar_tareas():
             tarea["nombre"],
             tarea["completada"]
         )
+def agregar_tarea():
+    nombre = input("Tarea: ")
+    tarea = {
+        "nombre": nombre,
+        "completada": False
+    }
+    tareas.append(tarea)
