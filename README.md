@@ -9,5 +9,14 @@ El proyecto fue desarrollado de manera colaborativa utilizando Git y GitHub, con
 ## Objetivo
 Desarrollar un programa sencillo que permita gestionar tareas mediante un menú de opciones, aplicando estructuras y conceptos fundamentales de programación en Python.
 
+## Funcionalidades
+El programa cuenta con las siguientes opciones:
+
+Agregar una tarea.
+Listar las tareas registradas.
+Mostrar el porcentaje de progreso.
+Salir del programa.
+
+Cada tarea contiene un nombre y un estado que permite identificar si se encuentra completada o pendiente.
 
 
