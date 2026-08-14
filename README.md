@@ -40,3 +40,13 @@ cd Gestor-de-tareas---Fundamentos-de-programaci-n
 Finalmente, ejecutar el programa:
 python Main.py
 
+## Ejemplo de funcionamiento
+
+Al ejecutar el programa se presenta un menú donde el usuario puede seleccionar la acción que desea realizar:
+
+GESTOR DE TAREAS
+
+1. Agregar tarea
+2. Listar tareas
+3. Mostrar progreso
+4. Salir
