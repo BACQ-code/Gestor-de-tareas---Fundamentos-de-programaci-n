@@ -27,4 +27,19 @@ def agregar_tarea():
     porcentaje = (
         completadas * 100 / total
     )
-    
+
+print("GESTOR DE TAREAS DEL EQUIPO")
+while True:
+    mostrar_menu()
+    opcion = input("Opcion: ")
+
+    if opcion == "1":
+        agregar_tarea()
+    elif opcion == "2":
+        listar_tareas()
+    elif opcion == "3":
+        mostrar_progreso()
+    elif opcion == "4":
+        break
+    else:
+        print("Opción no válida")
