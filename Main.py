@@ -14,8 +14,15 @@ def agregar_tarea():
         "completada": False
     }
     tareas.append(tarea)
-
-
+    
+def listar_tareas():
+    for tarea in tareas:
+        print(
+            tarea["nombre"],
+            tarea["completada"]
+        )
+        
+def mostrar_progreso():
     total = len(tareas)
     if total == 0:
         print("Sin tareas")
@@ -27,6 +34,7 @@ def agregar_tarea():
     porcentaje = (
         completadas * 100 / total
     )
+feature/agregar-tarea
 
 print("GESTOR DE TAREAS DEL EQUIPO")
 while True:
@@ -43,3 +51,5 @@ while True:
         break
     else:
         print("Opción no válida")
+    
+main
