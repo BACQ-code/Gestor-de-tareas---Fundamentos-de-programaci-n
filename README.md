@@ -19,4 +19,24 @@ Salir del programa.
 
 Cada tarea contiene un nombre y un estado que permite identificar si se encuentra completada o pendiente.
 
+## Estructura del proyecto
+Gestor-de-tareas---Fundamentos-de-programaci-n/
+│
+├── Main.py
+└── README.md
+
+Main.py: contiene el código principal y la lógica del gestor de tareas.
+README.md: contiene la documentación del proyecto.
+
+## Ejecución
+
+Para ejecutar el proyecto es necesario tener instalado Python 3.
+Primero se debe clonar el repositorio:
+git clone https://github.com/BACQ-code/Gestor-de-tareas---Fundamentos-de-programaci-n.git
+
+Luego ingresar a la carpeta del proyecto:
+cd Gestor-de-tareas---Fundamentos-de-programaci-n
+
+Finalmente, ejecutar el programa:
+python Main.py
 
