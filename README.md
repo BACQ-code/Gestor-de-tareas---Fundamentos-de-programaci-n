@@ -50,3 +50,11 @@ GESTOR DE TAREAS
 2. Listar tareas
 3. Mostrar progreso
 4. Salir
+
+## Autores
+
+Proyecto desarrollado por el equipo de trabajo de la asignatura de Fundamentos de Programación.
+
+## Propósito
+
+Este proyecto tiene fines académicos y busca demostrar la aplicación práctica de los conocimientos adquiridos en Fundamentos de Programación mediante el desarrollo de un gestor de tareas en Python.
