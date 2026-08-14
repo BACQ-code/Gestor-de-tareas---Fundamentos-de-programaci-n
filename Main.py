@@ -34,7 +34,6 @@ def mostrar_progreso():
     porcentaje = (
         completadas * 100 / total
     )
-feature/agregar-tarea
 
 print("GESTOR DE TAREAS DEL EQUIPO")
 while True:
@@ -52,4 +51,3 @@ while True:
     else:
         print("Opción no válida")
     
-main
